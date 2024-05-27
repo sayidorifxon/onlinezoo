@@ -1,0 +1,143 @@
+.work h3{
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 24px;
+text-transform: uppercase;
+color: var(--black);
+margin-bottom: 30px;
+}
+.work__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 9px;
+}
+.work__card{
+    text-align: center;
+}
+.img__box{
+    width: 145px;
+    height: 145px;
+    border-radius: 100%;
+    fill: #fff;
+    box-shadow: 0 2px 50px 0 rgba(0, 0, 0, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+.work__card p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+text-align: center;
+color: var(--black);
+}
+.work{
+    position: relative;
+    height: 850px;
+}
+.work__pos{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+@media(max-width:1200px){
+    .work{
+        height: 800px;
+    }
+}
+@media(max-width:1000px){
+    .work{
+        height: 700px;
+    }
+}
+@media(max-width:900px){
+    .work{
+        height: 650px;
+    }
+    .img__box {
+        width: 115px;
+        height: 115px;
+        margin-bottom: 14px;
+    }
+    .work__card p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 143%;
+    }
+}
+@media(max-width:800px){
+    .work{
+        height: 600px;
+    }
+    
+}
+@media(max-width:700px){
+    .work{
+        height: 500px;
+    }
+    .img__box {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 14px;
+    }
+    .img__box img{
+        width: 50px;
+    }
+    .work__card p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 143%;
+    }
+    .work__cards {
+        gap: 10px;
+        margin-bottom: 9px;
+    }
+    
+}
+@media(max-width:600px){
+    .work {
+        height: 1100px;
+    }
+    .work__pos{
+        content: url(../img/work5.png);
+    }
+    .work__cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .img__box {
+        width: 113px;
+        height: 113px;
+        margin-bottom: 8px;
+    }
+    .work__card p{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        text-align: center;
+        color: var(--black);
+    }
+    .work__card{
+        margin-bottom: 24px;
+    }
+    
+}
+@media(max-width:450px){
+    .work{
+        height: 1000px;
+    }
+}
+@media(max-width:370px){
+    .work{
+        height: 900px;
+    }
+}

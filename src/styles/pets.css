@@ -1,0 +1,540 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.theswiper2 .swiper-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 0 10px;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pets {
+  position: relative;
+  transform: scale(1);
+  margin-bottom: 100px;
+}
+.pets__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.pets__top h2 {
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #0d444d;
+}
+.pets__top button {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #19707d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 14px 20px;
+  border: 1.5px solid #19707d;
+  border-radius: 100px;
+  background: transparent;
+}
+.pet__card {
+  padding: 20px 0;
+  border-radius: 10px;
+  width: 480px;
+  height: 364px;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+  background: #fff;
+}
+.pets__img {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 32px;
+}
+.pets__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px 30px 0;
+  border-top: 1px solid #e5eaeb;
+}
+.pets__text h4 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #2d2d2d;
+  margin-bottom: 6px;
+}
+.pets__text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #909090;
+}
+
+.theswiper2 .swiper-button-prev::after,
+.theswiper2 .swiper-button-next::after {
+  display: none;
+}
+.theswiper2 .swiper-button-next {
+  content: url("../img/arrowright.png");
+  position: fixed;
+  top: 450px;
+  right: 150px;
+  width: 52px;
+  height: 52px;
+}
+.theswiper2 .swiper-button-prev {
+  content: url("../img/arrowleft.png");
+  position: fixed;
+  top: 520px;
+  left: 1420px;
+  width: 52px;
+  height: 52px;
+}
+@media (max-width: 1580px) {
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 518px;
+    left: 1360px;
+    width: 52px;
+    height: 52px;
+  }
+  .theswiper2 .swiper-button-next {
+
+    right: 112px;
+  }
+}
+@media (max-width: 1435px) {
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 518px;
+    left: 1290px;
+    width: 52px;
+    height: 52px;
+  }
+  .theswiper2 .swiper-button-next {
+    right: 47px;
+  }
+}
+@media (max-width: 1390px) {
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 518px;
+    left: 1275px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 1360px) {
+  .theswiper2 .swiper-button-next {
+    right: 22px;
+  }
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 518px;
+    left: 1260px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 1340px) {
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 518px;
+    left: 1237px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 1320px) {
+  .theswiper2 .swiper-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 0 10px;
+  }
+  .theswiper2 .pet__card {
+    padding: 20px 0;
+    border-radius: 10px;
+    width: 400px;
+    height: 364px;
+    box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+  }
+  .theswiper2 .swiper-button-next {
+    top: 425px;
+    right: 70px;
+}
+}
+@media (max-width: 1310px) {
+  .theswiper2 .swiper-button-next {
+    right: 70px;
+  }
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 518px;
+    left: 1170px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 1300px) {
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 518px;
+    left: 1104px;
+    width: 52px;
+    height: 52px;
+  }
+  .theswiper2 .swiper-button-next {
+    right: 50px;
+  }
+}
+@media (max-width: 1230px) {
+  .theswiper2 .swiper-button-next {
+    right: 40px;
+  }
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 518px;
+    left: 1070px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 1170px) {
+  .theswiper2 .swiper-button-next {
+    right: 10px;
+  }
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 518px;
+    left: 1005px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 1080px) {
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 518px;
+    left: 905px;
+    width: 52px;
+    height: 52px;
+  }
+  .theswiper2 .swiper-button-next {
+    right: 5px;
+  }
+}
+@media (max-width: 980px) {
+  .pet__card {
+    position: relative;
+    width: 256px;
+    height: 298px;
+  }
+  .pets__img img {
+    width: 169px;
+    height: 164px;
+  }
+  .pet__card h4 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #2d2d2d;
+  }
+  .pet__card p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #909090;
+  }
+  .pets__content img {
+    display: none;
+  }
+  .theswiper2 .swiper-button-next {
+    top: 370px;
+    right: 50px;
+  }
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 464px;
+    left: 865px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 950px) {
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 452px;
+    left: 831px;
+    width: 52px;
+    height: 52px;
+  }
+}
+
+@media (max-width: 900px) {
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 452px;
+    left: 795px;
+    width: 52px;
+    height: 52px;
+  }
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 445px;
+    left: 785px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 860px) {
+  .theswiper2 .swiper-button-next {
+    top: 385px;
+    right: 27px;
+  }
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 445px;
+    left: 760px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 830px) {
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 445px;
+    left: 735px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 810px) {
+  .theswiper2 .swiper-button-next {
+    top: 385px;
+    right: 25px;
+  }
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 445px;
+    left: 715px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 785px) {
+  .theswiper2 .swiper-button-next {
+    top: 385px;
+    right: 15px;
+  }
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 445px;
+    left: 700px;
+    width: 52px;
+    height: 52px;
+  }
+  .pets__top button {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #19707d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 10px 22px 9px 18px;
+    border: 1.5px solid #19707d;
+    border-radius: 100px;
+    background: transparent;
+} 
+.pets__top h2 {
+  font-weight: 400;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #0d444d;
+}
+}
+@media (max-width: 770px) {
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 440px;
+    left: 690px;
+    width: 52px;
+    height: 52px;
+  }
+  .theswiper2 .swiper-button-next {
+    top: 385px;
+    right: 11px;
+  }
+  .theswiper2 .swiper-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -40px;
+  }
+  .pets__content img {
+    display: flex;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 6px;
+    right: 16px;
+  }
+}
+@media (max-width: 765px) {
+  .theswiper2 .swiper-button-next {
+    top: 385px;
+    right: 210px;
+  }
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 440px;
+    left: 478px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 720px) {
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 440px;
+    left: 445px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 710px) {
+  .theswiper2 .pets__top button {
+    display: none;
+  }
+  .theswiper2 .swiper-button-next {
+    top: 385px;
+    right: 190px;
+  }
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 440px;
+    left: 447px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 670px) {
+  .theswiper2 .swiper-button-next {
+    top: 385px;
+    right: 165px;
+  }
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 440px;
+    left: 435px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 620px) {
+  .theswiper2 .swiper-button-next {
+    top: 385px;
+    right: 135px;
+  }
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 440px;
+    left: 410px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 565px) {
+  .theswiper2 .swiper-button-next {
+    top: 380px;
+    right: 111px;
+  }
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 440px;
+    left: 385px;
+    width: 52px;
+    height: 52px;
+  }
+}
+@media (max-width: 530px) {
+  .theswiper2 .swiper-button-prev {
+    position: fixed;
+    top: 440px;
+    left: 365px;
+    width: 52px;
+    height: 52px;
+  }
+  .theswiper2 .swiper-button-next {
+    top: 380px;
+    right: 95px;
+  }
+}
+@media(max-width: 500px) {
+  .theswiper2 .swiper-button-next {
+    top: 380px;
+    right: 85px;
+}
+.theswiper2 .swiper-button-prev {
+  position: fixed;
+  top: 440px;
+  left: 330px;
+  width: 52px;
+  height: 52px;
+}
+}
+@media(max-width: 470px) {
+  .theswiper2 .swiper-button-next {
+    top: 380px;
+    right: 70px;
+}
+.theswiper2 .swiper-button-prev {
+  position: fixed;
+  top: 440px;
+  left: 315px;
+  width: 52px;
+
+}
+}
+@media(max-width: 430px) {
+  .theswiper2 .swiper-button-next {
+    top: 385px;
+    right: 60px;
+}
+.theswiper2 .swiper-button-prev {
+  position: fixed;
+  top: 440px;
+  left: 306px;
+  width: 52px;
+}
+}
+@media(max-width: 400px) {
+  .theswiper2 .swiper-button-next {
+    top: 350px;
+    right: 25px;
+}
+.theswiper2 .swiper-button-prev {
+  position: fixed;
+  top: 485px;
+  left: 285px;
+  width: 52px;
+}
+.theswiper2 .swiper-button-prev {
+  position: fixed;
+  top: 415px;
+  left: 285px;
+  width: 52px;
+}
+}

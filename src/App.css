@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px ;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Roboto Mono", sans-serif;
+    --third-family: "Rubik", sans-serif;
+    --font3: "Sahitya", sans-serif;
+  }
+:root {
+	--black: #0d444d;
+	--bamboo-tree: #216e7a;
+	--white: #c5e1e5;
+	--yelllow-bttn: #fff5ba;
+	--bg: #2a8086;
+	--bttn-black: #0d444d;
+	--bttn-yellow: #ad954b;
+	--hero-text: #f3f7f8;
+	--footer-bg: #196469;
+	--bttn-lined: #19707d;
+}
+.swiper-button-next::after{
+    display: none;
+}
+.swiper-button-prev::after{
+    display: none;
+}
+button{
+    cursor: pointer;
+}
+.errorpage h1{
+    font-family: var(--font3);
+    font-weight: 400;
+    font-size: 250px;
+    text-transform: uppercase;
+    color: var(--black);
+    text-align: center;
+}
+.errorpage p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: var(--black);
+text-align: center;
+margin-bottom: 36px;
+}
+.errorpage a{
+    width: 247px;
+height: 52px;
+box-shadow: 0 2px 20px 0 rgba(185, 213, 217, 0.6);
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 18px;
+letter-spacing: -0.05em;
+text-transform: uppercase;
+color: var(--hero-text);
+display: flex;
+align-items: center;
+justify-content: center;
+background: var(--bttn-lined);
+border-radius: 100px;
+margin: 0 auto 50px;
+}
+.error__bottom{
+    height: 450px;
+}
+.error__bottom img{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 674px;
+    width: 100%;
+}
+@media(max-width:1000px){
+    .error__bottom {
+        height: 350px;
+    }
+    .error__bottom img{
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 674px;
+        width: 100%;
+    }
+}
+@media(max-width:700px){
+    .error__bottom {
+        height: 150px;
+    }
+    .error__bottom img{
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 97px;
+        width: 100%;
+    }
+}

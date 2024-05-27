@@ -1,0 +1,408 @@
+.pay{
+    position: relative;
+    height: 700px;
+    padding-top: 140px;
+    padding-bottom: 158px;
+}
+.pay__pos{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+.pay__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.pay__top p{
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 24px;
+text-transform: uppercase;
+color: var(--white);
+}
+.pay__top a{
+    box-shadow: 0 2px 20px 0 rgba(185, 213, 217, 0.6);
+    background: var(--white);
+    border-radius:100px;
+    padding: 8px 50px;
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: var(--black);
+}
+.pay__bottom{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.pay__card{
+    text-align: center;
+}
+.pay__box{
+    width: 145px;
+    height: 145px;
+    border-radius: 100%;
+    box-shadow: 0 2px 50px 0 rgba(185, 213, 217, 0.6);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+.pay__card p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+text-align: center;
+color: var(--white);
+}
+.pay__pos2 {
+    position: absolute;
+    left: 450px;
+    top: 345px;
+}
+.pay__pos3{
+    position: absolute;
+    right: 430px;
+    top: 345px;
+}
+@media(max-width:1400px){
+    .pay__pos2 {
+        position: absolute;
+        left: 390px;
+        top: 345px;
+    }
+    .pay__pos3 {
+        position: absolute;
+        right: 370px;
+        top: 345px;
+    }
+}
+@media(max-width:1300px){
+    .pay__pos2 {
+        position: absolute;
+        left: 320px;
+        top: 345px;
+    }
+    .pay__pos3 {
+        position: absolute;
+        right: 300px;
+        top: 345px;
+    }
+}
+@media(max-width:1200px){
+    .pay__pos2 {
+        position: absolute;
+        left: 285px;
+        top: 260px;
+    }
+    .pay__pos3 {
+        position: absolute;
+        right: 265px;
+        top: 260px;
+    }
+    .pay {
+        position: relative;
+        height: 600px;
+        padding-top: 110px;
+        padding-bottom: 158px;
+    }
+    .pay__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 65px;
+    }
+}
+@media(max-width:1100px){
+    .pay__pos3 {
+        position: absolute;
+        right: 250px;
+        top: 260px;
+    }
+    .pay__pos2 {
+        position: absolute;
+        left: 270px;
+        top: 260px;
+    }
+    .pay__box {
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        margin-bottom: 14px;
+    }
+    .pay__card p {
+        font-size: 12px;
+    }
+    .pay__top p {
+        font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: var(--white);
+    }
+    .pay__top a {
+        padding: 9px 40px;
+        font-size: 15px;
+    }
+}
+@media(max-width:1000px){
+    .pay__pos2 {
+        position: absolute;
+        left: 240px;
+        top: 250px;
+    }
+    .pay__pos3 {
+        position: absolute;
+        right: 222px;
+        top: 250px;
+    }
+    .pay {
+        position: relative;
+        height: 500px;
+        padding-top: 110px;
+        padding-bottom: 80px;
+    }
+}
+@media(max-width:900px){
+    .pay {
+        position: relative;
+        height: 450px;
+        padding-top: 65px;
+        padding-bottom: 80px;
+    }
+    .pay__box {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-bottom: 14px;
+    }
+    .pay__box img{
+       width: 50px;
+    }
+    .pay__pos2 {
+        position: absolute;
+        left: 234px;
+        top: 185px;
+        width: 140px;
+    }
+    .pay__pos3 {
+        position: absolute;
+        right: 221px;
+        top: 185px;
+        width: 140px;
+    }
+    .pay__card p {
+        font-size: 11px;
+    }
+    .pay__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 45px;
+    }
+    .pay__top p {
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .pay__top a {
+        padding: 7px 25px;
+        font-size: 12px;
+    }
+}
+@media(max-width:800px){
+    .pay {
+        position: relative;
+        height: 400px;
+        padding-top: 65px;
+        padding-bottom: 80px;
+    }
+    .pay__pos2 {
+        position: absolute;
+        left: 195px;
+        top: 185px;
+        width: 140px;
+    }
+    .pay__pos3 {
+        position: absolute;
+        right: 185px;
+        top: 185px;
+        width: 140px;
+    }
+}
+@media(max-width:700px){
+    .pay__pos {
+        content: url(../img/pay5.png);
+        height: 560px;
+        top: -106px;
+    }
+    .pay__pos3{
+        content: url(../img/pay6.png);
+        right: 150px;
+        top: 164px;
+        width: 52px;
+    }
+    .pay__pos2{
+        content: url(../img/pay6.png);
+        left: 160px;
+        top: 164px;
+        width: 52px;
+    }
+}
+@media(max-width:600px){
+    .pay__top p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .pay__top a {
+        padding: 7px 25px;
+        font-size: 11px;
+    }
+}
+@media(max-width:500px){
+    .pay__pos2 {
+        left: 130px;
+        top: 164px;
+        width: 52px;
+    }
+    .pay__pos3 {
+        right: 120px;
+        top: 164px;
+        width: 52px;
+    }
+}
+@media(max-width:450px){
+    .pay{
+        height: 1100px;
+    }
+    .pay__pos{
+        height: 1000px;
+        content: url(../img/pay7.png);
+        top: 0px;
+
+    }
+    .pay__bottom{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .pay__top p{
+        font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: var(--white);
+    }
+    .pay__card{
+        margin-bottom: 74px;
+    }
+    .pay__box {
+        width: 113px;
+        height: 113px;
+        border-radius: 100%;
+        margin-bottom: 14px;
+    }
+    .pay__card p{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        text-align: center;
+        color: var(--white);
+    }
+    .pay__pos2 {
+        left: 194px;
+        top: 304px;
+        width: 60px;
+        rotate: 90deg;
+    }
+    .pay__pos3 {
+        right: 197px;
+        top: 548px;
+        width: 60px;
+        rotate: 90deg;
+    }
+    
+    .pay__top a {
+        padding: 9px 50px;
+        font-size: 15px;
+        position: absolute;
+        bottom: 220px;
+        left: 50px;
+        right: 50px;
+        text-align: center;
+    }
+}
+@media(max-width:420px){
+    .pay__pos2 {
+        left: 177px;
+        top: 304px;
+        width: 60px;
+        rotate: 90deg;
+    }
+    .pay__pos3 {
+        right: 183px;
+        top: 548px;
+        width: 60px;
+        rotate: 90deg;
+    }
+}
+@media(max-width:400px){
+    .pay__pos2 {
+        left: 165px;
+        top: 304px;
+        width: 60px;
+        rotate: 90deg;
+    }
+    .pay__pos3 {
+        right: 175px;
+        top: 548px;
+        width: 60px;
+        rotate: 90deg;
+    }
+}
+@media(max-width:360px){
+    .pay__pos2 {
+        left: 150px;
+        top: 304px;
+        width: 60px;
+        rotate: 90deg;
+    }
+    .pay__pos3 {
+        right: 150px;
+        top: 548px;
+        width: 60px;
+        rotate: 90deg;
+    }
+    .pay__top a {
+        padding: 9px 40px;
+        font-size: 14px;
+        position: absolute;
+        bottom: 220px;
+        left: 40px;
+        right: 40px;
+        text-align: center;
+    }
+}
+@media(max-width:320px){
+    .pay__pos2 {
+        left: 130px;
+        top: 304px;
+        width: 60px;
+        rotate: 90deg;
+    }
+    .pay__pos3 {
+        right: 130px;
+        top: 548px;
+        width: 60px;
+        rotate: 90deg;
+    }
+}
